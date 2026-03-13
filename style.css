@@ -446,39 +446,27 @@ section {
 }
 
 .contact-item p {
+    color: var(--text-color); /* سيصبح بني داكن في الفاتح، وكريمي في المظلم */
     margin: 0;
     font-size: 1.1rem;
-    color: #FDFBF7 !important; /* اللون الأبيض الكريمي للنص */
 }
 
 .contact-link {
-    color: #FDFBF7 !important; /* لون الإيميل أبيض */
-    text-decoration: none; /* نشيل الخط اللي تحت اللينك */
+    color: var(--text-color); /* يتبع لون النص الأساسي للموقع */
+    text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 500;
 }
 
 .contact-link:hover {
-    color: var(--secondary-color) !important; /* يغير لونه خفيف لما تقف عليه */
-    text-decoration: underline; /* يظهر الخط فقط عند الوقوف بالماوس */
+    color: var(--primary-color); /* يتغير للون البني الدافئ عند الوقوف عليه */
+    text-decoration: underline;
 }
 
 .contact-item i {
-    color: #FDFBF7 !important; /* لون الأيقونات أبيض */
+    color: var(--primary-color); /* استخدام لون الـ Primary للأيقونات لتظهر بوضوح دائم */
     font-size: 2rem;
     margin-bottom: 10px;
-}
-
-.contact-link {
-    color: #FDFBF7 !important; /* اللون الأبيض الكريمي */
-    text-decoration: none; /* شيل الخط اللي تحت الرقم */
-    transition: color 0.3s ease;
-    font-weight: 500;
-}
-
-.contact-link:hover {
-    color: var(--secondary-color) !important; /* لون يتغير عند الوقوف عليه */
-    text-decoration: underline; /* يظهر خط بسيط عند الوقوف بالماوس */
 }
 
 /* Footer */
