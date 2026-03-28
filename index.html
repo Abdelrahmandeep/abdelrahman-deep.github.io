@@ -116,12 +116,12 @@
             </div>
             <div class="stat-item">
                 <i class="fas fa-certificate"></i>
-                <h3 class="counter" data-target="2">0</h3>
+                <h3 class="counter" data-target="4">0</h3>
                 <p>Programs Completed</p>
             </div>
             <div class="stat-item">
                 <i class="fas fa-database"></i>
-                <h3 class="counter" data-target="48">0</h3>
+                <h3 class="counter" data-target="300">0</h3>
                 <p>Thousand+ Rows Analyzed</p>
             </div>
         </div>
@@ -215,28 +215,36 @@
     <section id="certifications" class="reveal">
         <h2 class="section-title">Certifications</h2>
         <div class="certs-grid">
-            <div class="cert-card glass-card">
-                <div class="cert-icon"><i class="fas fa-award"></i></div>
-                <div class="cert-info">
-                    <h3>Data Analyst Specialist</h3>
-                    <h4>Digital Egypt Pioneers Initiative (DEPI)</h4>
-                    <span class="cert-year">2025</span>
-                </div>
-            </div>
-            <div class="cert-card glass-card">
+            <div class="cert-card glass-card" data-modal="cert-modal-1" style="cursor: pointer;" title="View Certificate">
                 <div class="cert-icon"><i class="fas fa-award"></i></div>
                 <div class="cert-info">
                     <h3>Artificial Intelligence for Business</h3>
                     <h4>National Telecommunication Institute (NTI)</h4>
+                    <span class="cert-year">2025</span>
+                </div>
+            </div>
+            <div class="cert-card glass-card" data-modal="cert-modal-2" style="cursor: pointer;" title="View Certificate">
+                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                <div class="cert-info">
+                    <h3>AI Career Essentials</h3>
+                    <h4>ALX Africa</h4>
                     <span class="cert-year">2024</span>
                 </div>
             </div>
-            <div class="cert-card glass-card">
+            <div class="cert-card glass-card" data-modal="cert-modal-3" style="cursor: pointer;" title="View Certificate">
                 <div class="cert-icon"><i class="fas fa-award"></i></div>
                 <div class="cert-info">
-                    <h3>Python for Data Science</h3>
-                    <h4>Self-Study / Online Course</h4>
-                    <span class="cert-year">2024</span>
+                    <h3>Getting Started with Deep Learning</h3>
+                    <h4>NVIDIA</h4>
+                    <span class="cert-year">2025</span>
+                </div>
+            </div>
+            <div class="cert-card glass-card" data-modal="cert-modal-4" style="cursor: pointer;" title="View Certificate">
+                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                <div class="cert-info">
+                    <h3>Data Analysis</h3>
+                    <h4>Microsoft</h4>
+                    <span class="cert-year">2025</span>
                 </div>
             </div>
         </div>
@@ -294,16 +302,16 @@
 
             <div class="project-card glass-card" data-modal="modal-4">
                 <div class="project-image-wrapper">
-                    <img src="screenshot-pizza-sales.png" alt="Pizza Sales Performance Dashboard" class="project-image" loading="lazy">
+                    <img src="RetailNova Sales Performance Dashboard.png" alt="RetailNova Sales Performance Dashboard" class="project-image" loading="lazy">
                     <div class="project-overlay"><i class="fas fa-expand-alt"></i></div>
                 </div>
                 <div class="project-body">
-                    <h3>Pizza Sales Performance Dashboard</h3>
-                    <p>Built an interactive Excel dashboard analyzing 48K+ orders and $817K revenue to uncover peak hours and top products.</p>
+                    <h3>RetailNova Sales Performance Dashboard</h3>
+                    <p>Developed an interactive sales dashboard analyzing $109.85M in revenue and $9.37M in profit. Tracked regional performance, top products, and sales representative efficiency to drive data-driven retail insights.</p>
                     <div class="project-tags">
                         <span>Excel</span><span>SQL</span><span>Dashboard</span>
                     </div>
-                    <a href="https://github.com/Abdelrahmandeep/Pizza-Sales-Performance-Analysis" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://github.com/Abdelrahmandeep/RetailNova-Sales-Performance-Dashboard" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -353,13 +361,39 @@
     <div class="modal-overlay" id="modal-4">
         <div class="modal-box glass-card">
             <button class="modal-close"><i class="fas fa-times"></i></button>
-            <img src="screenshot-pizza-sales.png" alt="Pizza Sales Dashboard">
-            <h2>Pizza Sales Performance Dashboard</h2>
-            <p>Built an interactive Excel dashboard analyzing <strong>48,000+ orders</strong> and <strong>$817K in revenue</strong>. Uncovered peak ordering hours, top-selling products, and monthly sales trends. Used SQL for data extraction and Excel for visualization.</p>
+            <img src="RetailNova Sales Performance Dashboard.png" alt="RetailNova Sales Dashboard">
+            <h2>RetailNova Sales Performance Dashboard</h2>
+            <p>Built an interactive Excel dashboard analyzing <strong>$109.85M in revenue</strong> and <strong>$9.37M in profit</strong>. Tracked regional performance, top products, and sales representative efficiency to drive data-driven retail insights.</p>
             <div class="project-tags">
                 <span>Excel</span><span>SQL</span><span>Dashboard</span><span>Data Analysis</span>
             </div>
-            <a href="https://github.com/Abdelrahmandeep/Pizza-Sales-Performance-Analysis" class="btn btn-primary" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+            <a href="https://github.com/Abdelrahmandeep/RetailNova-Sales-Performance-Dashboard" class="btn btn-primary" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- ========== CERTIFICATE MODALS ========== -->
+    <div class="modal-overlay" id="cert-modal-1">
+        <div class="modal-box glass-card" style="text-align: center; max-width: 900px; padding: 2rem;">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <img src="NTI CERTIFICATIONS.png" alt="NTI Certificate" class="cert-img" style="margin-bottom: 0;">
+        </div>
+    </div>
+    <div class="modal-overlay" id="cert-modal-2">
+        <div class="modal-box glass-card" style="text-align: center; max-width: 900px; padding: 2rem;">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <img src="ALX CERTIFICATIONS.png" alt="ALX Certificate" class="cert-img" style="margin-bottom: 0;">
+        </div>
+    </div>
+    <div class="modal-overlay" id="cert-modal-3">
+        <div class="modal-box glass-card" style="text-align: center; max-width: 900px; padding: 2rem;">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <img src="Nvidia CERTIFICATIONS.png" alt="Nvidia Certificate" class="cert-img" style="margin-bottom: 0;">
+        </div>
+    </div>
+    <div class="modal-overlay" id="cert-modal-4">
+        <div class="modal-box glass-card" style="text-align: center; max-width: 900px; padding: 2rem;">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <img src="Power BI CERTIFICATIONS .png" alt="Microsoft Data Analysis Certificate" class="cert-img" style="margin-bottom: 0;">
         </div>
     </div>
 

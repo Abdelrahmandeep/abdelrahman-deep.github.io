@@ -354,8 +354,8 @@ const particlesObserver = new IntersectionObserver(entries => {
 }, { threshold: 0 });
 if (heroSection) particlesObserver.observe(heroSection);
 
-// ─── Project Modals ───────────────────────────────────────────
-document.querySelectorAll('.project-card').forEach(card => {
+// ─── Project & Certificate Modals ─────────────────────────────────
+document.querySelectorAll('.project-card, .cert-card[data-modal]').forEach(card => {
     card.addEventListener('click', e => {
         // Don't trigger if clicked on the "View Project" button or its children
         if (e.target.closest('.btn')) return;
